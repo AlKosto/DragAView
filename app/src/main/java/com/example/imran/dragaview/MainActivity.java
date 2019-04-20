@@ -29,14 +29,7 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
         mImageView.setLayoutParams(layoutParams);
         mImageView.setOnTouchListener(this);
 
-        btnTest =findViewById(R.id.text_btn);
 
-        btnTest.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "ok", Toast.LENGTH_SHORT).show();
-            }
-        });
 
     }
 

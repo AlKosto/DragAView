@@ -17,10 +17,6 @@
         android:layout_marginTop="124dp"
         android:src="@drawable/talhasoft" />
 
-    <Button
-        android:id="@+id/text_btn"
-        android:text="Test"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+
 
 </RelativeLayout>
